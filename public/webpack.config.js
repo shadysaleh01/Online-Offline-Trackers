@@ -2,7 +2,7 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 
 const config = {
-   entry: "./index.js",
+   entry: "./public/index.js",
    output: {
       path: __dirname + "/dist",
       filename: "bundle.js"
@@ -29,13 +29,13 @@ const config = {
          short_name: "Budget tracker",
          description: "An application that allows user add expenses and deposits to their budget with or without a connection.",
          start_url: "/",
-         icons: [
-            {
-               src: path.resolve("/icons"),
-               sizes: [96, 128, 192, 256, 384, 512],
-               destination: path.join("public", "icons"),
-            },
-         ],
+         // icons: [
+         //    {
+         //       src: path.resolve("icons"),
+         //       sizes: [96, 128, 192, 256, 384, 512],
+         //       destination: path.join("public", "icons"),
+         //    },
+         // ],
       }),
    ],
 };
