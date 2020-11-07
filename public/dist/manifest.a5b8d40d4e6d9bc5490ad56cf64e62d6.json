@@ -1,9 +1,0 @@
-{
-  "name": "Budget tracker app",
-  "short_name": "Budget tracker",
-  "orientation": "portrait",
-  "display": "standalone",
-  "start_url": "/",
-  "fingerpints": false,
-  "description": "An application that allows user add expenses and deposits to their budget with or without a connection."
-}

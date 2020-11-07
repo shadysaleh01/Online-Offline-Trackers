@@ -4,7 +4,7 @@ const path = require("path");
 const config = {
    entry: "./public/index.js",
    output: {
-      path: __dirname + "/dist",
+      path: __dirname + "/public/dist",
       filename: "bundle.js"
    },
    mode: "development",
@@ -29,13 +29,13 @@ const config = {
          short_name: "Budget tracker",
          description: "An application that allows user add expenses and deposits to their budget with or without a connection.",
          start_url: "/",
-         // icons: [
-         //    {
-         //       src: path.resolve("icons"),
-         //       sizes: [96, 128, 192, 256, 384, 512],
-         //       destination: path.join("public", "icons"),
-         //    },
-         // ],
+         icons: [
+            {
+               src: path.resolve("./public/icons/icon-192x192.png"),
+               sizes: [96, 128, 192, 256, 384, 512],
+               destination: path.join("public", "icons"),
+            },
+         ],
       }),
    ],
 };
