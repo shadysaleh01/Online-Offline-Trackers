@@ -1,8 +1,8 @@
-# **Online/Offline Budgetb Trackers**
+# **Online/Offline Budget Trackers**
 
-- [Budgetb Trackers - GitHub IO](https://shadysaleh01.github.io/workout-tracker/)
-- [Budgetb Trackers - Heroku](https://frozen-river-75779.herokuapp.com/)
-- [Budgetb Trackers - Demo](https://drive.google.com/file/d/1epnd16S1REnGBRcuX32XnpPebilH0FWB/view)
+- [Budget Trackers - GitHub IO](https://shadysaleh01.github.io/workout-tracker/)
+- [Budget Trackers - Heroku](https://frozen-river-75779.herokuapp.com/)
+- [Budget Trackers - Demo](https://drive.google.com/file/d/1epnd16S1REnGBRcuX32XnpPebilH0FWB/view)
 
 
 ## Table of Contents
@@ -14,7 +14,7 @@
 - [Questions](#questions)
 
 ## Description
-###  Add functionality to our existing Budget Tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+### App will allow ueser to be able to track withdrawals and deposits with or without a data/internet connection SO the account balance is accurate when I they traveling. Giving users a fast and easy way to track their money. Allowing them to access that information anytime. When entering transactions offline, they should populate the total when brought back online. Having offline functionality is paramount to our applications success.
 
 ## Languages and Tools:
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
@@ -43,7 +43,8 @@ npm install || install mongoose || install express || install compression || ins
 ```
 ## Usage
 ### The user should be able to:
-
+Add expenses and deposits to their budget with or without data/internet connection
+SO that the account balance is accurate when they traveling.
 
 ## Tests
 ### To run tests, run the following command: 
