@@ -1,8 +1,8 @@
-# **Online-Offline-Trackers**
+# **Online/Offline Budgetb Trackers**
 
-- [Workout Traker - GitHub IO](https://shadysaleh01.github.io/workout-tracker/)
-- [Workout Traker - Heroku](https://frozen-river-75779.herokuapp.com/)
-- [Workout Reaker - Demo](https://drive.google.com/file/d/1epnd16S1REnGBRcuX32XnpPebilH0FWB/view)
+- [Budgetb Trackers - GitHub IO](https://shadysaleh01.github.io/workout-tracker/)
+- [Budgetb Trackers - Heroku](https://frozen-river-75779.herokuapp.com/)
+- [Budgetb Trackers - Demo](https://drive.google.com/file/d/1epnd16S1REnGBRcuX32XnpPebilH0FWB/view)
 
 
 ## Table of Contents
@@ -39,7 +39,7 @@
 ## Installation
 ### To install necessary dependencies, run the following command: 
 ```
-
+npm install || install mongoose || install express || install compression || install webpack
 ```
 ## Usage
 ### The user should be able to:
