@@ -33,7 +33,7 @@ const config = {
             {
                src: path.resolve("./public/icons/icon-192x192.png"),
                sizes: [96, 128, 192, 256, 384, 512],
-               destination: path.join("public", "icons"),
+               destination: path.join("icons"),
             },
          ],
       }),
